@@ -43,8 +43,11 @@ After running the script and providing input, the terminal will display:
   Generated QR Code
 
 ## Structure
+
+```bash
 project/
 ├── main.py               # File utama program
 ├── assets/               # Folder penyimpanan QR Code
 │   ├── Qrcode1.png       # QR Code hasil yang dihasilkan
 └── README.md             # Dokumentasi program
+```
