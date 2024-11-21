@@ -1,6 +1,10 @@
 import qrcode
 import os
 import qrcode.constants
+'''
+  Documentation:
+  https://pypi.org/project/qrcode/
+'''
 
 def generate_qrcode():
     # Konfigurasi QR Code
@@ -46,5 +50,21 @@ def generate_qrcode():
     except Exception as e:
         print(f"Terjadi kesalahan saat menyimpan QR Code: {e}")
 
+def main_menu():
+  while True:
+    print("QR code generator")
+    print("1. Buat QR code baru.")
+    print("2. Keluar.")
+    
+    choice = input("Pilih opsi(1/2): ").strip()
+    
+    if choice=="1":
+      generate_qrcode()
+    elif choice=="2":
+      print("Terima kasih telah menggunakan QR Code Generator. Sampai jumpa!")
+      break
+    else:
+      print("pilihan adna tidak valid")
+
 if __name__ == "__main__":
-    generate_qrcode()
+    main_menu()
