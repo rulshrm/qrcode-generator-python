@@ -1,6 +1,6 @@
 # QR Code Generator in Python
 
-A simple and efficient QR code generator built using Python. This tool allows you to create QR codes for any text or URL input, with customizable options.
+QR Code Generator adalah sebuah program Python interaktif yang digunakan untuk membuat QR Code dengan input teks atau URL. Program ini mendukung konfigurasi dasar, seperti ukuran kotak, tingkat koreksi kesalahan, dan penyimpanan hasil di folder khusus (assets).
 
 ## Features
 
@@ -39,5 +39,12 @@ After running the script and providing input, the terminal will display:
   Masukan input: Hello, World!
   QR Code berhasil dibuat dan disimpan sebagai Qrcode1.png
   Nilai input: Hello, World!
-  Generated QR Code
   ```
+  Generated QR Code
+
+## Structure
+project/
+├── main.py               # File utama program
+├── assets/               # Folder penyimpanan QR Code
+│   ├── Qrcode1.png       # QR Code hasil yang dihasilkan
+└── README.md             # Dokumentasi program
