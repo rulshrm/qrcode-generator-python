@@ -35,9 +35,9 @@ A simple and efficient QR code generator built using Python. This tool allows yo
 ## Example
 
 After running the script and providing input, the terminal will display:
-    ```bash
-    Masukan input: Hello, World!
-    QR Code berhasil dibuat dan disimpan sebagai Qrcode1.png
-    Nilai input: Hello, World!
-    Generated QR Code
-    ```
+  ```bash
+  Masukan input: Hello, World!
+  QR Code berhasil dibuat dan disimpan sebagai Qrcode1.png
+  Nilai input: Hello, World!
+  Generated QR Code
+  ```
