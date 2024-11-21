@@ -45,7 +45,7 @@ After running the script and providing input, the terminal will display:
 ## Structure
 
 ```bash
-project/
+qrcode-generator-python/
 ├── main.py               # File utama program
 ├── assets/               # Folder penyimpanan QR Code
 │   ├── Qrcode1.png       # QR Code hasil yang dihasilkan
