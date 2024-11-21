@@ -18,16 +18,16 @@ A simple and efficient QR code generator built using Python. This tool allows yo
    ```
 
 2. Install the required library:
-  ```bash
-  pip install qrcode
-  ```
+   ```bash
+   pip install qrcode
+   ```
 
 ## Usage
 
 1. Run the script:
-```bash
-python main.py
-```
+    ```bash
+    python main.py
+    ```
 2. Enter the text or URL you want to generate a QR code for when prompted.
 
 3. The generated QR code will be saved as an image file in the project directory (default: Qrcode1.png).
@@ -35,9 +35,9 @@ python main.py
 ## Example
 
 After running the script and providing input, the terminal will display:
-```bash
-Masukan input: Hello, World!
-QR Code berhasil dibuat dan disimpan sebagai Qrcode1.png
-Nilai input: Hello, World!
-Generated QR Code
-```
+    ```bash
+    Masukan input: Hello, World!
+    QR Code berhasil dibuat dan disimpan sebagai Qrcode1.png
+    Nilai input: Hello, World!
+    Generated QR Code
+    ```
