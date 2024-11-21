@@ -30,7 +30,7 @@ QR Code Generator adalah sebuah program Python interaktif yang digunakan untuk m
     ```
 2. Enter the text or URL you want to generate a QR code for when prompted.
 
-3. The generated QR code will be saved as an image file in the project directory (default: Qrcode1.png).
+3. The generated QR code will be saved as an image file in the [assets](/assets/) directory (default: Qrcode1.png).
 
 ## Example
 
@@ -51,3 +51,6 @@ qrcode-generator-python/
 │   ├── Qrcode1.png       # QR Code hasil yang dihasilkan
 └── README.md             # Dokumentasi program
 ```
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](/README.md) file for details.
