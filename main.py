@@ -27,7 +27,7 @@ def generate_qrcode():
     
     try:
         # Menyimpan gambar QR Code
-        filename = "Qrcode1.png"
+        filename = "assets/Qrcode1.png"
         img.save(filename)
         print(f"QR Code berhasil dibuat dan disimpan sebagai {filename}")
         print(f"Nilai input: {input_data}")
