@@ -1,4 +1,5 @@
 import qrcode
+import os
 import qrcode.constants
 
 def generate_qrcode():
@@ -25,9 +26,20 @@ def generate_qrcode():
     # Membuat gambar QR Code
     img = qr.make_image(fill_color="black", back_color="white")
     
+    # Membuat folder 'assets' jika belum ada
+    if not os.path.exists('assets'):
+      os.makedirs('assets')
+
+    # Menyimpan gambar QR Code dengan nama kustom
+    filename = input("\nMasukkan nama file (default: Qrcode1.png): ").strip() or "Qrcode1.png"
+    if not filename.endswith(".png"):
+      filename += ".png"
+    
+    # Menyimpan gambar ke dalam folder 'assets'
+    filename = os.path.join('assets', filename)
+        
     try:
         # Menyimpan gambar QR Code
-        filename = "assets/Qrcode1.png"
         img.save(filename)
         print(f"QR Code berhasil dibuat dan disimpan sebagai {filename}")
         print(f"Nilai input: {input_data}")
