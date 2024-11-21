@@ -1,10 +1,11 @@
-import qrcode
-import os
-import qrcode.constants
 '''
   Documentation:
   https://pypi.org/project/qrcode/
 '''
+
+import qrcode
+import os
+import qrcode.constants
 
 def generate_qrcode():
     # Konfigurasi QR Code
@@ -45,7 +46,7 @@ def generate_qrcode():
     try:
         # Menyimpan gambar QR Code
         img.save(filename)
-        print(f"QR Code berhasil dibuat dan disimpan sebagai {filename}")
+        print(f"QR Code berhasil dibuat dan disimpan sebagai {os.path.basename(filename)}")
         print(f"Nilai input: {input_data}")
     except Exception as e:
         print(f"Terjadi kesalahan saat menyimpan QR Code: {e}")
